@@ -1,0 +1,3 @@
+(executable (name DebuggerPlaygroundApp)
+    (public_name DebuggerPlaygroundApp.exe)
+    (libraries debugger-playground.library)) 

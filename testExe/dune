@@ -1,0 +1,4 @@
+(executable (name RunDebuggerPlaygroundTests)
+    (public_name RunDebuggerPlaygroundTests.exe)
+    (flags -g)
+    (libraries debugger-playground.test)) 

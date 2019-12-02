@@ -1,0 +1,26 @@
+{
+  "name": "debugger-playground",
+  "version": "0.0.0",
+  "description": "My Project",
+  "esy": {
+    "build": "refmterr dune build -p #{self.name}"
+  },
+  "scripts": {
+    "test": "esy x RunDebuggerPlaygroundTests.exe"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@esy-ocaml/reason": "*",
+    "refmterr": "*",
+    "ocaml": "4.7.x",
+    "pesy": "*",
+    "@reason-native/rely": "*"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*",
+    "@opam/earlybird": "*"
+  },
+  "resolutions": {
+    "pesy": "esy/pesy#3d8a18385e07fa11daabe811814fae3f869ad355"
+  }
+}
