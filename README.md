@@ -9,6 +9,11 @@ esy install
 esy build
 ```
 
+To generate the .bc target run
+```
+esy x dune build testExe/RunDebuggerPlaygroundTests.bc
+```
+
 ## Running Binary:
 
 After building the project, you can run the main binary that is produced.
