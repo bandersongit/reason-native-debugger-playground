@@ -1,2 +1,8 @@
-(library (name Test) (public_name debugger-playground.test)
-    (libraries debugger-playground.library rely.lib) (flags -linkall -g)) 
+(
+    library 
+    (name Test) 
+    (public_name debugger-playground.test)
+    (libraries debugger-playground.library rely.lib) 
+    (flags -linkall -g)
+    (modes byte)
+) 
