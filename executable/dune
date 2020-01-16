@@ -1,3 +1,5 @@
 (executable (name DebuggerPlaygroundApp)
     (public_name DebuggerPlaygroundApp.exe)
+        (modes byte)
+        (flags -g)
     (libraries debugger-playground.library)) 

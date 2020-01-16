@@ -6,7 +6,8 @@
     "build": "refmterr dune build -p #{self.name}"
   },
   "scripts": {
-    "test": "esy x RunDebuggerPlaygroundTests.exe"
+    "test": "esy x RunDebuggerPlaygroundTests.exe",
+    "debugServer": "esy x ocamlearlybird --server --port=4711"
   },
   "dependencies": {
     "@opam/dune": "*",
@@ -21,6 +22,6 @@
     "@opam/earlybird": "*"
   },
   "resolutions": {
-    "pesy": "esy/pesy#3d8a18385e07fa11daabe811814fae3f869ad355"
+    "@opam/earlybird": "link:../ocamlearlybird/earlybird.opam"
   }
 }

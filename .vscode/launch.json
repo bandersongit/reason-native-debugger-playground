@@ -8,7 +8,7 @@
       "name": "Launch file",
       "type": "ocaml-debugger",
       "request": "launch",
-      "program": "${workspaceRoot}/_esy/default/build/default/testExe/RunDebuggerPlaygroundTests.bc",
+      "program": "${workspaceRoot}/_esy/default/build/default/executable/DebuggerPlaygroundApp.bc",
       "debugServer": 4711,
       "stopOnEntry": true
     }
